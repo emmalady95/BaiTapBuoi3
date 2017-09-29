@@ -13,25 +13,25 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Color 1"
-            android:textColor="@color/White"
+            android:textColor="@color/Red"
             android:layout_weight="0.1"
-            android:background="@color/Red" />
+            android:foreground="@color/Red" />
         <Button
             android:id="@+id/btnColor2"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Color 2"
-            android:textColor="@color/Black"
+            android:textColor="@color/Yellow"
             android:layout_weight="0.1"
-            android:background="@color/Yellow"/>
+            android:foreground="@color/Yellow"/>
         <Button
             android:id="@+id/btnColor3"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Color 3"
-            android:textColor="@color/White"
+            android:textColor="@color/Blue"
             android:layout_weight="0.8"
-            android:background="@color/Blue"/>
+            android:foreground="@color/Blue"/>
     </TableRow>
 
     <TableRow  android:weightSum="1">
@@ -47,7 +47,7 @@
     <TableRow
         android:weightSum="1">
         <Button
-            android:í="@+id/btnNext"
+            android:id="@+id/btnNext"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Next"
